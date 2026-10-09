@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radio Live — Utilizarea datelor / Data usage</title>
+<style>
+  :root { --fg:#1d2b2f; --bg:#f7faf9; --accent:#2A7383; --card:#e9f1f1; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#e6eeee; --bg:#0f1c20; --accent:#7cc4d1; --card:#17292e; } }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--fg); background:var(--bg);
+         max-width: 760px; margin: 0 auto; padding: 24px 18px 48px; line-height: 1.6; }
+  h1 { color:var(--accent); font-size: 1.6rem; margin-bottom: .2rem; }
+  h2 { color:var(--accent); font-size: 1.15rem; margin-top: 2rem; }
+  .meta { opacity:.75; font-size:.9rem; }
+  .card { background:var(--card); border-radius:12px; padding:14px 16px; margin:1.2rem 0; }
+  .lang a { margin-right: 14px; font-weight:600; }
+  hr { border:0; border-top:1px solid rgba(127,127,127,.3); margin: 2.5rem 0; }
+  a { color:var(--accent); }
+  li { margin-bottom:.35rem; }
+  table { width:100%; border-collapse:collapse; font-size:.9rem; margin:1rem 0; }
+  th, td { text-align:left; padding:8px 8px; border-bottom:1px solid rgba(127,127,127,.3); vertical-align:top; }
+  th { opacity:.8; }
+</style>
+</head>
+<body>
+
+<p class="lang"><a href="#ro">Română</a><a href="#en">English</a></p>
+
+<section id="ro">
+<h1>Radio Live — Utilizarea datelor</h1>
+<p class="meta">Dezvoltator: Athos · Contact: <a href="mailto:contact.athosdev@gmail.com">contact.athosdev@gmail.com</a> · Actualizat: 9 octombrie 2026</p>
+<p class="lang"><a href="terms.html">Termeni și condiții</a><a href="privacy.html">Confidențialitate</a><a href="data-usage.html">Utilizarea datelor</a></p>
+
+<div class="card"><strong>Esențialul:</strong> favoritele, posturile adăugate și setările stau doar pe telefonul tău. Aplicația folosește internetul pentru sunetul posturilor, lista de posturi, sigle, reclame și achiziții. Nu avem conturi, servere proprii cu datele tale și nu vindem nimic. Detalii în <a href="privacy.html">Politica de confidențialitate</a>.</div>
+
+<h2>1. Rețea și consum de date</h2>
+<ul>
+  <li><strong>Redarea radio</strong> — aproape tot consumul. Depinde de calitatea stream-ului postului: aproximativ <strong>30 MB/oră la 64 kbps</strong>, <strong>60 MB/oră la 128 kbps</strong> și <strong>145 MB/oră la 320 kbps</strong>. Se consumă doar cât timp asculți.</li>
+  <li><strong>Lista de posturi</strong> — descărcată de la Radio Browser la prima pornire și la actualizare, apoi păstrată în cache.</li>
+  <li><strong>„Verifică posturile”</strong> — contactează scurt fiecare post ca să vadă dacă răspunde; consum mic, doar când pornești tu verificarea.</li>
+  <li><strong>Sigle</strong> — imagini mici, păstrate în cache.</li>
+  <li><strong>Reclame</strong> (versiunea gratuită) — bannerele AdMob se încarcă prin rețea.</li>
+  <li><strong>Achiziții</strong> — apeluri către Google Play când cumperi, te abonezi sau restaurezi Premium.</li>
+</ul>
+<p>Pe un abonament de date limitat, contează în principal cât asculți și calitatea postului; restul e neglijabil.</p>
+
+<h2>2. Corespondența cu secțiunea „Siguranța datelor” din Google Play</h2>
+<table>
+<tr><th>Tip de date</th><th>Colectate / partajate</th><th>Observații</th></tr>
+<tr><td>ID de publicitate / ID-uri de dispozitiv</td><td>Colectate și partajate</td><td>De Google AdMob, pentru reclame (cu consimțământ în SEE/UK/CH).</td></tr>
+<tr><td>Locație aproximativă</td><td>Partajată</td><td>Dedusă de AdMob din adresa IP, pentru reclame. Aplicația nu cere permisiunea de locație.</td></tr>
+<tr><td>Activitate în aplicație / diagnostic</td><td>Colectate și partajate</td><td>Afișări și clicuri pe reclame și date tehnice colectate de SDK-ul AdMob.</td></tr>
+<tr><td>Istoricul achizițiilor</td><td>Procesat de Google Play</td><td>Aplicația primește doar confirmarea că Premium e activ, nu datele de plată.</td></tr>
+<tr><td>Favorite, posturi adăugate, setări, jurnal de redare</td><td>Necolectate</td><td>Rămân doar pe telefon. Fișierul de backup îl salvezi tu, unde alegi.</td></tr>
+<tr><td>Nume, email, locație precisă, contacte, fișiere, mesaje, sănătate</td><td>Necolectate</td><td>Aplicația nu cere și nu accesează aceste date.</td></tr>
+</table>
+
+<h2>3. Păstrarea datelor</h2>
+<p>Datele locale rămân pe telefon până le ștergi din aplicație, ștergi datele aplicației sau o dezinstalezi. Nu păstrăm nicio copie pe vreun server. Datele prelucrate de Google AdMob și Google Play sunt păstrate conform politicilor Google.</p>
+
+<h2>4. Securitate</h2>
+<p>Comunicarea cu Radio Browser și cu serviciile Google folosește HTTPS. Unele posturi de radio transmit doar prin HTTP necriptat; în acest caz se transmite doar sunetul postului, nu date despre tine. Datele de pe telefon sunt protejate de izolarea standard a aplicațiilor Android. Pentru că nu avem un server cu datele utilizatorilor, nu există o bază de date centrală care să poată fi compromisă.</p>
+
+<h2>5. Contact</h2>
+<p><a href="mailto:contact.athosdev@gmail.com">contact.athosdev@gmail.com</a></p>
+</section>
+
+<hr>
+
+<section id="en">
+<h1>Radio Live — Data usage</h1>
+<p class="meta">Developer: Athos · Contact: <a href="mailto:contact.athosdev@gmail.com">contact.athosdev@gmail.com</a> · Updated: October 9, 2026</p>
+<p class="lang"><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="data-usage.html">Data usage</a></p>
+
+<div class="card"><strong>The essentials:</strong> favorites, added stations and settings stay only on your phone. The app uses the internet for station audio, the station list, logos, ads and purchases. We have no accounts, no servers holding your data, and we sell nothing. Details in the <a href="privacy.html">Privacy Policy</a>.</div>
+
+<h2>1. Network and data consumption</h2>
+<ul>
+  <li><strong>Radio playback</strong> — almost all of the usage. It depends on the station's stream quality: about <strong>30 MB/hour at 64 kbps</strong>, <strong>60 MB/hour at 128 kbps</strong> and <strong>145 MB/hour at 320 kbps</strong>. Data is used only while you listen.</li>
+  <li><strong>Station list</strong> — downloaded from Radio Browser on first launch and on refresh, then cached.</li>
+  <li><strong>"Check stations"</strong> — briefly contacts each station to see whether it responds; low usage, only when you start the check.</li>
+  <li><strong>Logos</strong> — small images, cached.</li>
+  <li><strong>Ads</strong> (free version) — AdMob banners load over the network.</li>
+  <li><strong>Purchases</strong> — calls to Google Play when you buy, subscribe or restore Premium.</li>
+</ul>
+<p>On a limited data plan, what matters is mainly how long you listen and the station's quality; the rest is negligible.</p>
+
+<h2>2. Mapping to Google Play's "Data safety" section</h2>
+<table>
+<tr><th>Data type</th><th>Collected / shared</th><th>Notes</th></tr>
+<tr><td>Advertising ID / device IDs</td><td>Collected and shared</td><td>By Google AdMob, for ads (with consent in the EEA/UK/CH).</td></tr>
+<tr><td>Approximate location</td><td>Shared</td><td>Inferred by AdMob from the IP address, for ads. The app does not request location permission.</td></tr>
+<tr><td>App activity / diagnostics</td><td>Collected and shared</td><td>Ad impressions and clicks and technical data collected by the AdMob SDK.</td></tr>
+<tr><td>Purchase history</td><td>Processed by Google Play</td><td>The app only receives confirmation that Premium is active, never payment details.</td></tr>
+<tr><td>Favorites, added stations, settings, playback log</td><td>Not collected</td><td>Stay on your phone only. You save the backup file yourself, wherever you choose.</td></tr>
+<tr><td>Name, email, precise location, contacts, files, messages, health</td><td>Not collected</td><td>The app never requests or accesses this data.</td></tr>
+</table>
+
+<h2>3. Data retention</h2>
+<p>Local data stays on your phone until you delete it in the app, clear the app data or uninstall it. We keep no copy on any server. Data processed by Google AdMob and Google Play is kept under Google's policies.</p>
+
+<h2>4. Security</h2>
+<p>Communication with Radio Browser and Google services uses HTTPS. Some radio stations only stream over unencrypted HTTP; in that case only the station's audio is transferred, not data about you. Data on your phone is protected by Android's standard app sandbox. Since we run no server with user data, there is no central database that could be compromised.</p>
+
+<h2>5. Contact</h2>
+<p><a href="mailto:contact.athosdev@gmail.com">contact.athosdev@gmail.com</a></p>
+</section>
+
+</body>
+</html>
